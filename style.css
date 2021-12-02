@@ -1,15 +1,66 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 8px;
+}
+body {
+    text-align: center;
+    background-image: url("../images/entire\ band.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 ul {
     display: flex;
     gap: 16px;
     list-style-type: none;
 }
+a {
+    color: #e5e7eb;
+    font-size: 16px;
+}
 h1 {
+    display: flex;
+    justify-content: space-evenly;
     font-size: 32px;
     font-weight: 900;
+    color: #f9faf8
+    
+}
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+h3 {
+    font-size: 18px;
+    color: #f9faf8
+}
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    margin: 120px;
+}
+.caption {
+    max-width: 200px;
+    font-size: 18px;
+    color: whitesmoke
 }
