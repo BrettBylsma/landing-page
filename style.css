@@ -7,7 +7,7 @@
 }
 body {
     text-align: center;
-    background-image: url("../images/entire\ band.jpg");
+    background-image: url("images/entireband.jpg");
     min-height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ img {
 .container-2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     gap: 52px;
     margin: 120px;
 }
