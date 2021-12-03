@@ -1,14 +1,19 @@
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 8px;
+    margin-top: 16px;
 }
 body {
     text-align: center;
     background-image: url("../images/entire\ band.jpg");
+    min-height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
 ul {
     display: flex;
@@ -16,30 +21,33 @@ ul {
     list-style-type: none;
 }
 a {
-    color: #e5e7eb;
+    color: #f0f8ff;
     font-size: 16px;
 }
 h1 {
     display: flex;
     justify-content: space-evenly;
-    font-size: 32px;
+    font-size: 52px;
     font-weight: 900;
-    color: #f9faf8
+    color: #f0f8ff;
     
 }
 h2 {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: #f0f8ff;
 }
 h3 {
     font-size: 18px;
-    color: #f9faf8
+    color: #f0f8ff;
 }
 button {
     background-color: #3882f6;
     border-radius: 8px;
     margin: 4px;
+    border: 2px solid white;
+    padding: 12px 24px;
+    text-decoration: none;
 }
 
 .container-1 {
@@ -62,5 +70,50 @@ img {
 .caption {
     max-width: 200px;
     font-size: 18px;
-    color: whitesmoke
+    color: #f0f8ff;
 }
+.container-3 {
+    display: flex;
+    color: #f0f8ff;
+    flex-direction: column;
+    background: #a9a9a9;
+}
+.quote {
+    font-size: 24px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: auto;
+    padding-bottom:4px;
+}
+.credit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    margin-right: 400px;
+}
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    background-color: #3882f6;
+    margin: 300px;
+    padding: 50px;
+    align-items: center
+
+}
+.testimonials,
+.action  {
+    color: #f0f8ff;
+    font-size: 20px;
+}
+.footer {
+    color: #f0f8ff;
+    background-color: #1f2937;
+    padding: 8px;
+    margin-bottom: 0px;
+}
+   
+
+
+
